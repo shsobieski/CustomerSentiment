@@ -8,7 +8,7 @@ The dataset utilized for this model is a set of 9092 tweets collected during the
 
 https://query.data.world/s/zbehvjkmiewbkln44rae6iphum4v3g
 
-![](figures/SentimentbyBrand/Product.png)
+![](http://localhost:8890/view/figures/SentimentbyProduct.png "Sentiment by Product/Brand")
 
 ### The Model
 For this project two models were made: one being a binary classifier identifying either positive or negative sentiment. The other being a multiclass classifier identifying either positive, negative, or neutral sentiment.
