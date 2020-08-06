@@ -1,4 +1,8 @@
 def predict_sentiment(model):
+    """
+    Asks user to input a tweet, which is then transformed and used to predict sentiment
+    
+    """
     data = input(str('Enter a test tweet...'))
     cleaned_data = clean_lemmatize_token(data)
     next_step = [cleaned_data, '']

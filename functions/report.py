@@ -1,4 +1,8 @@
 def report(clf):
+    """
+    Prints the metrics of a classification model
+    
+    """
     # fit the classifier
     clf.fit(X_train, y_train)
     

@@ -1,4 +1,8 @@
 def clean_lemmatize_token_alt(tweet):
+    """
+    Removes stop words, twitter_specific words and punctuation, then tokenizes, and lemmatizes
+    
+    """
     stop_words = set(stopwords.words('english'))
     cleaned = tweet.translate(str.maketrans('', '', string.punctuation)).lower()
     tokenized = word_tokenize(cleaned)
